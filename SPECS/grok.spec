@@ -35,10 +35,10 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-/usr/bin
-/usr/include
-/usr/share
-%{_libdir}
+%{_bindir}/*
+%{_includedir}/*
+%{_libdir}/*
+%{_datadir}/*
 
 %doc
 
